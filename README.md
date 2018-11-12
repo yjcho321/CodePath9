@@ -24,9 +24,9 @@ Time spent: **9** hours spent in total
   - Fixed by changing the firewall rule creation code to include port 80: ```gcloud beta compute firewall-rules create mhn-allow-admin --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=tcp:3000,tcp:10000,tcp:80 --source-ranges=0.0.0.0/0 --target-tags=mhn-admin```
   
 ## Data Collection
-  - 6,603 attacks in approximately 8 hours
+  - 7,147 attacks in approximately 12 hours
   - 4,994 attacks were from ```nmap``` commands from my machine
-  - 1,610 foreign attacks attacks in approximately 8 hours
+  - 2,153 non-local attacks in approximately 12 hours
   - 0 malware samples collected
   - result attached as [session.json](session.json)
   ![](mhn-admin.gif)
