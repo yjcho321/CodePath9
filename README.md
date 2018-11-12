@@ -29,3 +29,4 @@ Time spent: **9** hours spent in total
   - 1,610 foreign attacks attacks in approximately 8 hours
   - 0 malware samples collected
   - result attached as [session.json](session.json)
+  ![](mhn-admin.gif)
