@@ -30,3 +30,7 @@ Time spent: **9** hours spent in total
   - 0 malware samples collected
   - result attached as [session.json](session.json)
   ![](mhn-admin.gif)
+
+## Resources
+
+GIFs created with [LiceCap](http://www.cockos.com/licecap/).
